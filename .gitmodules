@@ -1,0 +1,108 @@
+[submodule "binutils"]
+	path = binutils
+	url = https://github.com/shedbuilt/binutils.git
+        branch = .
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/shedbuilt/gcc.git
+        branch = .
+[submodule "linux-headers"]
+	path = linux-headers
+	url = https://github.com/shedbuilt/linux-headers.git
+        branch = .
+[submodule "glibc"]
+	path = glibc
+	url = https://github.com/shedbuilt/glibc.git
+        branch = .
+[submodule "libstdcpp"]
+	path = libstdcpp
+	url = https://github.com/shedbuilt/libstdcpp.git
+        branch = .
+[submodule "ncurses"]
+	path = ncurses
+	url = https://github.com/shedbuilt/ncurses.git
+        branch = .
+[submodule "bash"]
+	path = bash
+	url = https://github.com/shedbuilt/bash.git
+        branch = .
+[submodule "bison"]
+	path = bison
+	url = https://github.com/shedbuilt/bison.git
+        branch = .
+[submodule "bzip2"]
+	path = bzip2
+	url = https://github.com/shedbuilt/bzip2.git
+        branch = .
+[submodule "coreutils"]
+	path = coreutils
+	url = https://github.com/shedbuilt/coreutils.git
+        branch = .
+[submodule "diffutils"]
+	path = diffutils
+	url = https://github.com/shedbuilt/diffutils.git
+        branch = .
+[submodule "file"]
+	path = file
+	url = https://github.com/shedbuilt/file.git
+        branch = .
+[submodule "findutils"]
+	path = findutils
+	url = https://github.com/shedbuilt/findutils.git
+        branch = .
+[submodule "gawk"]
+	path = gawk
+	url = https://github.com/shedbuilt/gawk.git
+        branch = .
+[submodule "gettext"]
+	path = gettext
+	url = https://github.com/shedbuilt/gettext.git
+        branch = .
+[submodule "grep"]
+	path = grep
+	url = https://github.com/shedbuilt/grep.git
+        branch = .
+[submodule "gzip"]
+	path = gzip
+	url = https://github.com/shedbuilt/gzip.git
+        branch = .
+[submodule "m4"]
+	path = m4
+	url = https://github.com/shedbuilt/m4.git
+        branch = .
+[submodule "make"]
+	path = make
+	url = https://github.com/shedbuilt/make.git
+        branch = .
+[submodule "patch"]
+	path = patch
+	url = https://github.com/shedbuilt/patch.git
+        branch = .
+[submodule "perl"]
+	path = perl
+	url = https://github.com/shedbuilt/perl.git
+        branch = .
+[submodule "sed"]
+	path = sed
+	url = https://github.com/shedbuilt/sed.git
+        branch = .
+[submodule "tar"]
+	path = tar
+	url = https://github.com/shedbuilt/tar.git
+        branch = .
+[submodule "texinfo"]
+	path = texinfo
+	url = https://github.com/shedbuilt/texinfo.git
+        branch = .
+[submodule "util-linux"]
+	path = util-linux
+	url = https://github.com/shedbuilt/util-linux.git
+        branch = .
+[submodule "xz"]
+	path = xz
+	url = https://github.com/shedbuilt/xz.git
+        branch = .
+[submodule "shedmake"]
+	path = shedmake
+	url = https://github.com/shedbuilt/shedmake.git
+        branch = .
