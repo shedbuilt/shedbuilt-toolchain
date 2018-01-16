@@ -1,29 +1,29 @@
-binutils --mode toolchain --target toolchain --install-root /mnt/shedstrap
-gcc --mode toolchain --target toolchain --install-root /mnt/shedstrap --skip-preinstall
-linux-headers --mode toolchain --install-root /mnt/shedstrap
-glibc --mode toolchain --host toolchain --install-root /mnt/shedstrap --skip-postinstall
-libstdcpp --mode toolchain --host toolchain --install-root /mnt/shedstrap
-binutils --mode toolchain --host toolchain --target native --install-root /mnt/shedstrap
-gcc --mode toolchain --host toolchain --target native --install-root /mnt/shedstrap --skip-preinstall
-ncurses --mode toolchain --install-root /mnt/shedstrap
-bash --mode toolchain --install-root /mnt/shedstrap
-bison --mode toolchain --install-root /mnt/shedstrap
-bzip2 --mode toolchain --install-root /mnt/shedstrap
-coreutils --mode toolchain --install-root /mnt/shedstrap
-diffutils --mode toolchain --install-root /mnt/shedstrap
-file --mode toolchain --install-root /mnt/shedstrap
-findutils --mode toolchain --install-root /mnt/shedstrap
-gawk --mode toolchain --install-root /mnt/shedstrap
-gettext --mode toolchain --install-root /mnt/shedstrap
-grep --mode toolchain --install-root /mnt/shedstrap
-gzip --mode toolchain --install-root /mnt/shedstrap
-m4 --mode toolchain --install-root /mnt/shedstrap
-make --mode toolchain --install-root /mnt/shedstrap
-patch --mode toolchain --install-root /mnt/shedstrap
-perl --mode toolchain --install-root /mnt/shedstrap
-sed --mode toolchain --install-root /mnt/shedstrap
-tar --mode toolchain --install-root /mnt/shedstrap
-texinfo --mode toolchain --install-root /mnt/shedstrap
-util-linux --mode toolchain --install-root /mnt/shedstrap
-xz --mode toolchain --install-root /mnt/shedstrap
-shedmake --mode toolchain --install-root /mnt/shedstrap
+binutils --mode toolchain --target toolchain --strip no
+gcc --mode toolchain --target toolchain --strip no --skip-preinstall
+linux-headers --mode toolchain --strip no
+glibc --mode toolchain --host toolchain --strip no --skip-postinstall
+libstdcpp --mode toolchain --host toolchain --strip no
+binutils --mode toolchain --host toolchain --target native --strip no
+gcc --mode toolchain --host toolchain --target native --strip no --skip-preinstall
+ncurses --mode toolchain --strip no
+bash --mode toolchain --strip no
+bison --mode toolchain --strip no
+bzip2 --mode toolchain --strip no
+coreutils --mode toolchain --strip no
+diffutils --mode toolchain --strip no
+file --mode toolchain --strip no
+findutils --mode toolchain --strip no
+gawk --mode toolchain --strip no
+gettext --mode toolchain --strip no
+grep --mode toolchain --strip no
+gzip --mode toolchain --strip no
+m4 --mode toolchain --strip no
+make --mode toolchain --strip no
+patch --mode toolchain --strip no
+perl --mode toolchain --strip no
+sed --mode toolchain --strip no
+tar --mode toolchain --strip no
+texinfo --mode toolchain --strip no
+util-linux --mode toolchain --strip no
+xz --mode toolchain --strip no
+shedmake --mode toolchain --strip no
