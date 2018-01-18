@@ -26,4 +26,4 @@ tar --mode toolchain --strip no
 texinfo --mode toolchain --strip no
 util-linux --mode toolchain --strip no
 xz --mode toolchain --strip no
-shedmake --mode toolchain --strip no
+shedmake --mode toolchain --strip no --skip-postinstall
