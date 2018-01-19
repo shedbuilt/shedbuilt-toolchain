@@ -24,6 +24,6 @@ perl --mode toolchain --strip no
 sed --mode toolchain --strip no
 tar --mode toolchain --strip no
 texinfo --mode toolchain --strip no
-util-linux --mode toolchain --strip no
-xz --mode toolchain --strip no
+util-linux --mode toolchain --strip no --skip-preinstall
+xz --mode toolchain --strip no --skip-preinstall
 shedmake --mode toolchain --strip no --skip-postinstall
