@@ -1,10 +1,10 @@
 binutils --mode toolchain --target toolchain --strip no
-gcc --mode toolchain --target toolchain --strip no --skip-preinstall
+gcc --mode toolchain --target toolchain --strip no --ignore-dependencies --skip-preinstall
 linux-headers --mode toolchain --target toolchain --strip no
 glibc --mode toolchain --host toolchain --strip no --skip-postinstall
 libstdcpp --mode toolchain --host toolchain --strip no
 binutils --mode toolchain --host toolchain --strip no --force
-gcc --mode toolchain --host toolchain --strip no --skip-preinstall --force
+gcc --mode toolchain --host toolchain --strip no --ignore-dependencies --skip-preinstall --force
 ncurses --mode toolchain --strip no
 bash --mode toolchain --strip no
 bison --mode toolchain --strip no
