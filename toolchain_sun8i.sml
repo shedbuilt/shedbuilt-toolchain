@@ -1,10 +1,10 @@
 binutils --target armv7l-shedstrap-linux-gnueabihf
-gcc --target armv7l-shedstrap-linux-gnueabihf --ignore-dependencies --skip-preinstall
+gcc --target armv7l-shedstrap-linux-gnueabihf --ignore-dependencies --skip-preinstall --jobs 1
 linux-headers --target armv7l-shedstrap-linux-gnueabihf
 glibc --host armv7l-shedstrap-linux-gnueabihf --skip-postinstall
 libstdcpp --host armv7l-shedstrap-linux-gnueabihf
-binutils --host armv7l-shedstrap-linux-gnueabihf --force
-gcc --host armv7l-shedstrap-linux-gnueabihf --ignore-dependencies --skip-preinstall --force
+binutils --host armv7l-shedstrap-linux-gnueabihf --jobs 1 --force
+gcc --host armv7l-shedstrap-linux-gnueabihf --ignore-dependencies --skip-preinstall --jobs 1 --force
 ncurses
 bash
 bison
